@@ -164,6 +164,16 @@
             ],
             "contextWindow": 1000000,
             "maxTokens": 65536
+          },
+          {
+            "id": "MiniMax-M2.1",
+            "name": "MiniMax-M2.1",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 204800,
+            "maxTokens": 32768
           }
         ]
       }
@@ -190,7 +200,8 @@
         "bailian/qwen-flash": {},
         "bailian/qwen3-coder-next": {},
         "bailian/qwen3-coder-plus": {},
-        "bailian/qwen3-coder-flash": {}
+        "bailian/qwen3-coder-flash": {},
+        "bailian/MiniMax-M2.1": {}
       },
       "workspace": "/Users/ethan/.openclaw/workspace",
       "compaction": {
