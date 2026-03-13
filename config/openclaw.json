@@ -174,6 +174,36 @@
             ],
             "contextWindow": 204800,
             "maxTokens": 32768
+          },
+          {
+            "id": "MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 204800,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-4.7",
+            "name": "glm-4.7",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 202752,
+            "maxTokens": 32768
+          },
+          {
+            "id": "glm-5",
+            "name": "glm-5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 202752,
+            "maxTokens": 32768
           }
         ]
       }
@@ -201,7 +231,10 @@
         "bailian/qwen3-coder-next": {},
         "bailian/qwen3-coder-plus": {},
         "bailian/qwen3-coder-flash": {},
-        "bailian/MiniMax-M2.1": {}
+        "bailian/MiniMax-M2.1": {},
+        "bailian/MiniMax-M2.5": {},
+        "bailian/glm-4.7": {},
+        "bailian/glm-5": {}
       },
       "workspace": "/Users/ethan/.openclaw/workspace",
       "compaction": {

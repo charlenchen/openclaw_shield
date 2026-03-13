@@ -376,6 +376,57 @@
             "cacheWrite": 0
           },
           "api": "openai-completions"
+        },
+        {
+          "id": "MiniMax-M2.5",
+          "name": "MiniMax-M2.5",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 204800,
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm-4.7",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 202752,
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "contextWindow": 202752,
+          "maxTokens": 32768,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "api": "openai-completions"
         }
       ]
     }
