@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.11",
-    "lastTouchedAt": "2026-03-13T11:13:42.990Z"
+    "lastTouchedAt": "2026-03-13T11:35:59.124Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-12T11:41:46.294Z",
@@ -182,7 +182,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "bailian/qwen3-vl-plus-2025-12-19"
+        "primary": "bailian/MiniMax-M2.1"
       },
       "models": {
         "xiaomi/mimo-v2-flash": {
